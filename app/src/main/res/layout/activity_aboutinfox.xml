@@ -1,0 +1,74 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ab_infox"
+
+            android:id="@+id/imageview"
+
+            />
+    </LinearLayout>
+
+    <ScrollView
+
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/back"
+
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="200dp">
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/infox_view"
+
+
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="bottom"
+                    android:layout_height="20dp"
+                    android:src="@drawable/horizontalline"/>
+            </LinearLayout>
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="match_parent"
+                android:id="@+id/tv"
+                android:layout_marginLeft="5dp"
+                android:textStyle="normal"
+                android:text=" 'Dream.Believe.Achieve' Don’t ever be afraid to “Dream” too big, As nothing is impossible. If you “Believe” in yourself, You can “Achieve” those achievements that “INSPIRE” you. Converging everyone to this simple but beautiful perspective, along with tonnes of hard work, coming from a huge number of people of our institution, C. K. Pithawalla College of Engineering and Technology, honours us to introduce our National Level Technical Symposium “INSPIRE 2k16”."
+                android:textColor="#FFFFFF"></TextView>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

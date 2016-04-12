@@ -1,0 +1,493 @@
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="CONTACT US"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@color/abc_search_url_text_normal"
+        android:textSize="40dp"
+        android:textColor="#FFFFFF"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Principal"
+                android:gravity="center"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Dr.Anish Gandhi"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Faculty Co-ordinators"
+                android:gravity="center"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Dr. Pratik V Shah"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Dr.Mita Paunwala"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"/>
+
+
+            <!--<ImageButton-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:src="@android:drawable/ic_menu_call"-->
+                <!--android:id="@+id/callMe"/>-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+
+                android:text="Core Team"
+
+
+                android:background="#000000"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Technical Secretaries"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton4"
+                android:text="Call:  Somil Shah (+91 90161 90263)"
+                android:src="@android:drawable/sym_action_call"
+                android:background="#36622929"
+                android:clickable="true"
+                android:textColor="#FFFFFF"/>
+
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton5"
+            android:text="Call:  Mihir Parmar (+91 88660 66301)"
+            android:src="@android:drawable/sym_action_call"
+            android:background="#36622929"
+            android:clickable="true"
+                android:textColor="#FFFFFF"/>
+
+
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton6"
+            android:text="Call:  Shubham Dubey (+91 90991 71614)"
+            android:src="@android:drawable/sym_action_call"
+            android:background="#36622929"
+            android:clickable="true"
+                android:textColor="#FFFFFF"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Technical Co-ordinators"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton2"
+                android:text="Call:  Denish Mehta(+91 97261 17962)"
+                android:src="@android:drawable/sym_action_call"
+                android:background="#36622929"
+                android:clickable="true"
+                android:textColor="#FFFFFF"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton3"
+                android:text="Call:  Gopi Patel(+91 99785 55699)"
+                android:src="@android:drawable/sym_action_call"
+                android:background="#36622929"
+                android:clickable="true"
+                android:textColor="#FFFFFF"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Chief Co-ordinators"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton"
+                android:text="Call:  Ritesh Jha (+91 95373 58746)"
+                android:src="@android:drawable/sym_action_call"
+                android:background="#36622929"
+                android:clickable="true"
+                android:textColor="#FFFFFF"/>
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton1"
+                android:text="Call:  Ashna Lakdawala (+91 98982 03506)"
+                android:src="@android:drawable/sym_action_call"
+                android:background="#36622929"
+                android:clickable="true"
+                android:textColor="#FFFFFF"/>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:ellipsize="none"
+                android:maxLines="100"
+                android:scrollHorizontally="false"
+                android:text="Department Co-ordinators"
+                android:background="#000000"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Computer"
+                android:gravity="center"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton7"
+                android:text="Call:  Mayank Jariwala: +91 89804 30366"
+                android:src="@android:drawable/sym_action_call"
+                android:background="#36622929"
+                android:clickable="true"
+                android:textColor="#FFFFFF"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton8"
+                android:text="Call:  Abhi Shah: +91 88666 49197"
+                android:src="@android:drawable/sym_action_call"
+                android:background="#36622929"
+                android:clickable="true"
+                android:textColor="#FFFFFF"/>
+
+
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="E &#38; C"
+                android:gravity="center"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton9"
+                android:text="Call:  Yash Shah: +91 90996 89465"
+                android:src="@android:drawable/sym_action_call"
+                android:background="#36622929"
+                android:clickable="true"
+                android:textColor="#FFFFFF"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton10"
+                android:text="Call:  Vishal Gudla: +91 84607 65178"
+                android:src="@android:drawable/sym_action_call"
+                android:background="#36622929"
+                android:clickable="true"
+                android:textColor="#FFFFFF"/>
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Electrical"
+                android:gravity="center"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton11"
+                android:text="Call:  Neel Patel: +91 9624822175"
+                android:src="@android:drawable/sym_action_call"
+                android:background="#36622929"
+                android:clickable="true"
+                android:textColor="#FFFFFF"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton12"
+                android:text="Call:  Abhijeet Solanki: +91 9913545352"
+                android:src="@android:drawable/sym_action_call"
+                android:background="#36622929"
+                android:clickable="true"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Civil"
+                android:gravity="center"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton13"
+                android:text="Call:  Patel Aditya: +91 88662 79740"
+                android:src="@android:drawable/sym_action_call"
+                android:background="#36622929"
+                android:clickable="true"
+                android:textColor="#FFFFFF"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton14"
+                android:text="Call:  Bhaduka Palash: +91 8460414977"
+                android:src="@android:drawable/sym_action_call"
+                android:background="#36622929"
+                android:clickable="true"
+                android:textColor="#FFFFFF"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Mechanical"
+                android:gravity="center"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton15"
+                android:text="Call:  Abhishek Vashi: +91 98251 06121"
+                android:src="@android:drawable/sym_action_call"
+                android:background="#36622929"
+                android:clickable="true"
+                android:textColor="#FFFFFF"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton16"
+                android:text="Call:  Sagar Jagina: +91 89052 38838"
+                android:src="@android:drawable/sym_action_call"
+                android:background="#36622929"
+                android:clickable="true"
+                android:textColor="#FFFFFF"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Applied Science"
+                android:gravity="center"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton17"
+                android:text="Call:  Chandni Srivastav: +91 9909320833"
+                android:src="@android:drawable/sym_action_call"
+                android:background="#36622929"
+                android:clickable="true"
+                android:textColor="#FFFFFF"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton18"
+                android:text="Call:  Brijesh Patel: +91 7405163100"
+                android:src="@android:drawable/sym_action_call"
+                android:background="#36622929"
+                android:clickable="true"
+                android:textColor="#FFFFFF"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Photography"
+                android:gravity="center"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton19"
+                android:text="Call:  Harnish Choksi: +91 8460225662"
+                android:src="@android:drawable/sym_action_call"
+                android:background="#36622929"
+                android:clickable="true"
+                android:textColor="#FFFFFF"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton20"
+                android:text="Call:  Mukesh Mishra: +91 8866245147"
+                android:src="@android:drawable/sym_action_call"
+                android:background="#36622929"
+                android:clickable="true"
+                android:textColor="#FFFFFF"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Android App Develpoer"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton0"
+                android:text="Call:  Priyal Shah (9712933288)"
+                android:src="@android:drawable/sym_action_call"
+                android:background="#36622929"
+                android:clickable="true"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

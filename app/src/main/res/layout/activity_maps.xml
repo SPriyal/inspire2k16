@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.inspire.spriyal.techfest.FragmentB"
+    android:background="@drawable/back">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="350dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/map"
+        android:id="@+id/imageView"
+        android:clickable="true"/>
+
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="360dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="C K Pithawala"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="College of Engineering and Technology"
+        android:textColor="#000000"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal|bottom"
+        android:textStyle="bold" />
+
+    <TextView android:layout_width="284dp" android:layout_height="136dp"
+        android:layout_marginTop="20dp"
+        android:text="ADDRESS : Near Malvan Mandir, Via Magdalla Port, Dumas Road, Surat, Gujarat 395007"
+        android:layout_gravity="center_horizontal|bottom"
+        android:id="@+id/textView2"
+        android:textStyle="bold" />
+    </LinearLayout>
+
+
+</FrameLayout>
+
+
+
