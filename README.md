@@ -6,4 +6,4 @@ An Android Studio Project for the Technical festival at our college.
 Fully fuctional and running android app for Inspire 2k16 at C K Pithawala College of Engineering and Technology.
 
 
-# CKP # CKPCET # Inspire # Inspire2k16 # techfest # TechFest #TechnicalFestival #Event
+# CKP CKPCET Inspire  Inspire2k16  techfest  TechFest TechnicalFestival Event
